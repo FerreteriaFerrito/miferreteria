@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FERRETERIA LH</title>
+</head>
+<body>
+    <h1>PRUEBA DE MI CHATBOT</h1>
+    <h2>Tenemos Calaminas</h2>
+    <img src="img/calamina.jpg" style="border: 10px solid; color: black;" alt="Calaminas" width="800" height="550">
+    <h2>Tenemos Carretillas</h2>
+    <img src="img/carretilla.jpg" style="border: 10px solid; color: black;" alt="Carretillas" width="800" height="550">
+    <h2>Tenemos Cementos</h2>
+    <img src="img/cemento.jpg" style="border: 10px solid; color: black;" alt="Cementos" width="800" height="550">
+    <h2>Tenemos Cuerdas</h2>
+    <img src="img/cuerdas.jpg" style="border: 10px solid; color: black;" alt="Cuerdas" width="800" height="550">
+    <h2>Tenemos Driwall</h2>
+    <img src="img/driwall.jpg" style="border: 10px solid; color: black;" alt="Driwall" width="800" height="550">
+    <h2>Tenemos Escaleras</h2>
+    <img src="img/escalera.jpg" style="border: 10px solid; color: black;" alt="Escaleras" width="800" height="550">
+    <h2>Tenemos Pinturas</h2>
+    <img src="img/pinturapared.jpg" style="border: 10px solid; color: black;" alt="Pinturas" width="800" height="550">
+    <h2>Tenemos Tanques de Agua</h2>
+    <img src="img/tanagua.jpg" style="border: 10px solid; color: black;" alt="Tanques de Agua" width="800" height="550">
+    <h2>Tenemos Triplay</h2>
+    <img src="img/triplay.jpg" style="border: 10px solid; color: black;" alt="Triplay" width="800" height="550">
+    <h2>Tenemos Tubos de PVC</h2>
+    <img src="img/tubos.jpg" style="border: 10px solid; color: black;" alt="Tubos" width="800" height="550">
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "3d978073-4a73-4c50-8fb6-d584c317cc7c", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "c9af20af-62be-45a1-a576-7b34aeb1dee3", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+            (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+            "/WatsonAssistantChatEntry.js"
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+</html>
